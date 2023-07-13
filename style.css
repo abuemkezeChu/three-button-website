@@ -12,11 +12,11 @@
   }
   
 
-#like, #comment{
+#like, #comment, #share{
     height: 100px;
     width: 350px;
-    background: #4949da;
-    border: none;
+    background: #ffffff;
+    border: 2px solid black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
@@ -25,11 +25,7 @@
     color: #ffffff;
 }
 
-#comment{
-    background: #ffffff;
-    border: 2px solid black;
-}
-#comment:hover{
+#like:hover, #comment:hover, #share:hover{
     background: #000000;
     color: #ffffff;
 }
