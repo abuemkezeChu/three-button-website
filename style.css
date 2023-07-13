@@ -3,14 +3,16 @@
     height: 250px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     top: 500px;
     padding-top: 300px;
+    gap: 10px;
   }
   
 
-#like{
+#like, #comment{
     height: 100px;
     width: 350px;
     background: #4949da;
@@ -19,6 +21,15 @@
     font-size: 20px;
 }
 
-#like:hover{
+ #like:hover{
+    color: #ffffff;
+}
+
+#comment{
+    background: #ffffff;
+    border: 2px solid black;
+}
+#comment:hover{
+    background: #000000;
     color: #ffffff;
 }
